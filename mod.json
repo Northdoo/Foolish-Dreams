@@ -3,14 +3,14 @@
 	"name": "Foolish Dreams (A Pseudoregalia mod)",
 	"display_name": "Foolish Dreams",
 	"author": ["MIIdris Northdoo"],
-	"description": "A (still in the works) Pseudoregalia mod for Balatro. \nPseudoregalia by Rittzler ! \nThanks for the Balatro Discord,\nThe Talisman and Yahimod\nto make this mod possible.",
+	"description": "A Pseudoregalia mod for Balatro. \nPseudoregalia by Rittzler ! \nThanks for the Balatro Discord,\nVanillaRemade and Yahimod\nto make this mod possible.",
 	"prefix": "cymbal",
 	"main_file": "main.lua",
-	"priority": 3,
+	"priority": 999,
 	"badge_colour": "111111",
 	"badge_text_colour": "FFFFFF",
-	"version": "1.4.0",
-	"dependencies": ["Steamodded (>=1.0.0~BETA-0711a)",
+	"version": "2.0.0",
+	"dependencies": ["Steamodded (>=1.0.0~BETA-1016c)",
 			"Lovely (>=0.7)"]
 	
 }
