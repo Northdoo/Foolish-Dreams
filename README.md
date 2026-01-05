@@ -5,16 +5,15 @@ Foolish dreams is mod attempting to bring Pseudoregalia to Balatro while trying 
 An 3D Metroidvania indie-game made by Rittz. Do i recommand it ? Yes, even if the lore is thin, i do recommand to give a look to a gampelay of the game or better, PLAY IT YOURSELF before playing this mod, but that however you feel like.
 
 # What this mod will have ?
-So far you have :
-- 27 Jokers (3 being legendaries)
+- 54 Jokers (4 being legendaries)
 - 1 Tarot Card
-- 1 Rare Spectral Card
-- 1 Enhancement type
-- 1 Boss Blind
-- 3 Vouchers
-- 2 Poker Hands
+- 5 Spectral Cards
+- 2 Enhancement type
+- 5 Boss Blind
+- 9 Vouchers
+- 1 Poker Hands
 
-But of course, there will be more.
+And who knows, mybe there'll be even more.
 
 # How do i instal it ?
 
@@ -25,4 +24,6 @@ But of course, there will be more.
 And you're done ! If you launch the game and see the mod after clicking the Mod button, then everything has been done coretly !
 
 # WARNING
-I  only used Non-Gamplay changing mods such as Debug Plus, System Clock and Deck Skin mods while making this mod. So don't report issues about problems related to other mods as i didn't think of the compatibility of other gameplay mods while making this one, sorry !
+Talisman will crash some some jokers (like Tower Remains) of the mod due to the way Talisman handle calculations and scoring, however you could still use that mod with it as otherwise there's no major crash or issue, works also with Crytpid.
+However, don't report issues about problems related to other mods as i didn't think of the compatibility of other gameplay mods primarly while making this one, sorry !
+
