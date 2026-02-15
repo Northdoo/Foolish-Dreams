@@ -25,8 +25,9 @@ And you're done ! If you launch the game and see the mod after clicking the Mod 
 
 # What if i want to instal an older version of the mod ?
 
-..Why do you want to do that ? 
-That asside, if you do want to instal an older version of the mod (which i wouldn't suggest for the simple fact the 2.0.0 version (past it) is basically the "definitive" version of the mod), you may prefer downloading the release folders and instal them manually. DO NOT use the source code files as those haven't been properly update when i made the releases so they might be buged or missing elements.
+..Why do you want to do that ?
+
+That asside, if you do want to instal an older version of the mod than the latest release, you should download the release folders and instal them manually. **DO NOT** use the source code files as some haven't been properly update when i made the releases so they might be buged or missing elements, or simply being incorect versions. Please instead the zip files attached to it instead (ex : Foolish.Dreams.V.1.4.1.zip)
 
 # WARNING
 Talisman will crash some some jokers (like Tower Remains) of the mod due to the way Talisman handle calculations and scoring, however you could still use that mod with it as otherwise there's no major crash or issue, works also with Crytpid.
