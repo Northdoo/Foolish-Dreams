@@ -23,7 +23,13 @@ And who knows, mybe there'll be even more.
 
 And you're done ! If you launch the game and see the mod after clicking the Mod button, then everything has been done coretly !
 
+# What if i want to instal an older version of the mod ?
+
+..Why do you want to do that ? 
+That asside, if you do want to instal an older version of the mod (which i wouldn't suggest for the simple fact the 2.0.0 version (past it) is basically the "definitive" version of the mod), you may prefer downloading the release folders and instal them manually. DO NOT use the source code files as those haven't been properly update when i made the releases so they might be buged or missing elements.
+
 # WARNING
 Talisman will crash some some jokers (like Tower Remains) of the mod due to the way Talisman handle calculations and scoring, however you could still use that mod with it as otherwise there's no major crash or issue, works also with Crytpid.
 However, don't report issues about problems related to other mods as i didn't think of the compatibility of other gameplay mods primarly while making this one, sorry !
+
 
