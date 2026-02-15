@@ -9,9 +9,7 @@ SMODS.Joker {
     key = "heg",
         loc_txt= {
         name = 'Half-Hatched Egg',
-        text = { "{C:blue} +#1#{} Chips",
-        "Gain {C:money}$2{} at",
-        "the end of round",
+        text = { "{C:blue} +35{} Chips",
     },},
     atlas = 'heg',
     pos = { x = 0, y = 0 },
@@ -25,21 +23,17 @@ SMODS.Joker {
     eternal_compat = true,
     perishable_compat = true,
     
-    config = { extra = {chips = 35, price = 2}},
+    config = { extra = {chips = 35}},
     loc_vars = function(self, info_queue, card)
-		return { vars = { card.ability.extra.chips,card.ability.extra.price }  }
+		return { vars = { card.ability.extra.chips}  }
     end,
     calculate = function(self, card, context)
         if context.joker_main then
 			return {
-                chips = card.ability.extra.chips
+				message = "+".. card.ability.extra.chips,
+				chip_mod = card.ability.extra.chips
 			}
         end
-    if context.end_of_round and context.game_over == false and context.main_eval and not context.blueprint then
-        return {
-        dollars = card.ability.extra.price
-        }
-    end
     end
 }
 
