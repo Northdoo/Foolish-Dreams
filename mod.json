@@ -1,6 +1,6 @@
 {
 	"id": "PseudoMod",
-	"name": "Foolish Dreams (A Pseudoregalia mod)",
+	"name": "Foolish Dreams",
 	"display_name": "Foolish Dreams",
 	"author": ["MIIdris Northdoo"],
 	"description": "A Pseudoregalia mod for Balatro. \nPseudoregalia by Rittzler ! \nThanks for the Balatro Discord,\nVanillaRemade and Yahimod\nto make this mod possible.",
@@ -9,7 +9,7 @@
 	"priority": 999,
 	"badge_colour": "111111",
 	"badge_text_colour": "FFFFFF",
-	"version": "2.0.0",
+	"version": "2.0.1",
 	"dependencies": ["Steamodded (>=1.0.0~BETA-1016c)",
 			"Lovely (>=0.7)"]
 	

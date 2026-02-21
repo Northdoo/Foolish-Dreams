@@ -129,7 +129,7 @@ SMODS.ObjectType({
 })
 
 
-
+--[[
 --Joker Defniton be like :
 
 if next(SMODS.find_mod("JokerDisplay")) then
@@ -137,7 +137,7 @@ if next(SMODS.find_mod("JokerDisplay")) then
 end
 
 --Card Sleeves be like :
---[[
+
 if CardSleeves then
     SMODS.Atlas { -- Main Sleeve Atlas
         key = 'Sleeves',
@@ -151,9 +151,9 @@ for _, file in ipairs(sleeves) do
     assert(SMODS.load_file("extra/sleeves/" .. file))()
 end
 end
-]]
 
---[[Imagine retriggering Jokers
+
+Imagine retriggering Jokers
 SMODS.current_mod.optional_features = {
 	retrigger_joker = true
 	}
