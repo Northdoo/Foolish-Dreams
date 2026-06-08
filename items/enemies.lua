@@ -1,6 +1,6 @@
 SMODS.Atlas{
-  key = 'heg',
-    path = 'halfegg.png',
+  key = 'enemies',
+    path = 'enemies.png',
     px = 71,
     py = 95,
 }
@@ -13,7 +13,7 @@ SMODS.Joker {
         "Gain {C:money}$2{} at",
         "the end of round",
     },},
-    atlas = 'heg',
+    atlas = 'enemies',
     pos = { x = 0, y = 0 },
     rarity = 1,
     cost = 1,
@@ -46,12 +46,6 @@ SMODS.Joker {
 --wheel_of_fortune
 --the reason why 'Oops ! All 6's won't work is because i didn't coded correctly for Balatro to actualy take the chance value as a changable variable, or whatever that means, i consider fixing that in a future update but that's not my priority for now.
 --Hey me from when i created the spikedwheel, nu uh
-SMODS.Atlas{
-  key = 'spiwheel',
-    path = 'spikewheel.png',
-    px = 69,
-    py = 93,
-}
 
 SMODS.Joker {
     key = "spiwheel",
@@ -61,8 +55,8 @@ SMODS.Joker {
         		"{C:green}#1# in #2#{} chance to create",
         		"{C:tarot,T:c_wheel_of_fortune} The Wheel of Fortune{}"
     },},
-    atlas = 'spiwheel',
-    pos = { x = 0, y = 0 },
+    atlas = 'enemies',
+    pos = { x = 3, y = 0 },
     rarity = 1,
     cost = 5,
     pools = {["pseudoregamod"] = true},
@@ -100,13 +94,6 @@ SMODS.Joker {
 }
 
 -- Lil' Jeri
-SMODS.Atlas{
-    key = 'jeri',
-    path = 'jeri.png',
-    px = 69,
-    py = 93,
-}
-
 SMODS.Joker {
     key = "jeri",
         loc_txt= {
@@ -117,8 +104,8 @@ SMODS.Joker {
     "{C:inactive}(Resets each round){}",
         "{C:inactive}(Currently at{C:money} #1#${}{C:inactive}) "
         },},
-    atlas = 'jeri',
-    pos = { x = 0, y = 0 },
+    atlas = 'enemies',
+    pos = { x = 1, y = 0 },
     rarity = 1,
     cost = 5,
     pools = {["pseudoregamod"] = true},
@@ -159,12 +146,6 @@ SMODS.Joker {
 }
 
 --Heaven Ward
-SMODS.Atlas{
-  key = 'regaliahand',
-    path = 'HeavenHand.png',
-    px = 69,
-    py = 93,
-}
 
 SMODS.Joker {
     key = "regaliahand",
@@ -178,8 +159,8 @@ SMODS.Joker {
             "{C:inactive}(Currently at{} {C:money}#1#${}{C:inactive}){}"
         }
     },
-    atlas = 'regaliahand',
-    pos = { x = 0, y = 0 },
+    atlas = 'enemies',
+    pos = { x = 2, y = 0 },
     rarity = 2,
     cost = 5,
     pools = {["pseudoregamod"] = true},
@@ -215,12 +196,6 @@ end
 	
 --Worthy Blade
 
-SMODS.Atlas{
-    key = 'worthyblade_regalia',
-    path = 'WorthyBlade.png',
-    px = 69,
-    py = 93,
-}
 
 SMODS.Joker {
     key = "regalia_worthyblade",
@@ -232,8 +207,8 @@ SMODS.Joker {
         '{C:inactive}(Currently at {C:mult}#1#{} {C:inactive}Mult){}',
         }
     },
-    atlas = 'worthyblade_regalia',
-    pos = { x = 0, y = 0 },
+    atlas = 'enemies',
+    pos = { x = 0, y = 1 },
     rarity = 2,
     cost = 5,
     pools = {["pseudoregamod"] = true},
@@ -287,12 +262,6 @@ end
 }
 
 --Handmaiden
-SMODS.Atlas{
-  key = 'Maidenregalia',
-    path = 'Handmaiden.png',
-    px = 69,
-    py = 93,
-}
 
 SMODS.Joker {
     key = "regaliamaiden",
@@ -304,8 +273,8 @@ SMODS.Joker {
     "after end of the round"
         }
     },
-    atlas = 'Maidenregalia',
-    pos = { x = 0, y = 0 },
+    atlas = 'enemies',
+    pos = { x = 1, y = 1 },
     rarity = 2,
     cost = 8,
     pools = {["pseudoregamod"] = true},
@@ -367,13 +336,6 @@ SMODS.Joker {
 
 --Living Statue
 
-SMODS.Atlas{
-  key = 'statueliving',
-    path = 'LivingStatue.png',
-    px = 69,
-    py = 93,
-}
-
 
 SMODS.Joker {
     key = "statuelviing",
@@ -382,10 +344,10 @@ SMODS.Joker {
         text = { "{X:mult,C:white}x#1#{} Mult for each",
         "{C:attention}Stone Cards{} played in your hand"
     },},
-    atlas = 'statueliving',
-    pos = { x = 0, y = 0 },
+    atlas = 'enemies',
+    pos = { x = 2, y = 1 },
     rarity = 2,
-    cost = 6,
+    cost = 9,
     enhancement_gate = "m_stone",
     pools = {["pseudoregamod"] = true},
     
@@ -426,9 +388,9 @@ SMODS.Joker {
         "{C:attention}Stone Cards{} scored",
         "{C:inactive}(Currently at{}{X:chips,C:white}x#2#{} {C:inactive}Chips)"
     },},
-    atlas = 'statueliving',
-    pos = { x = 0, y = 0 },
-    display_size = { w = 69 * 0.5, h = 93 * 0.5 },
+    atlas = 'enemies',
+    pos = { x = 2, y = 1 },
+    display_size = { w = 71 * 0.5, h = 95 * 0.5 },
     rarity = 3,
     cost = 8,
     enhancement_gate = "m_stone",
@@ -462,13 +424,6 @@ SMODS.Joker {
 end
 }
 --Trimask Chandelier
-SMODS.Atlas{
-  key = 'trichandelier',
-    path = 'Chandelier.png',
-    px = 69,
-    py = 93,
-}
-
 
 
 SMODS.Joker {
@@ -481,8 +436,8 @@ SMODS.Joker {
         "{C:inactive}(Currently at {}{X:mult,C:white}x#1#{} {C:inactive}Mult ){}",
         }
     },
-    atlas = 'trichandelier',
-    pos = { x = 0, y = 0 },
+    atlas = 'enemies',
+    pos = { x = 3, y = 1 },
     rarity = 2,
     cost = 7,
     pools = {["pseudoregamod"] = true},

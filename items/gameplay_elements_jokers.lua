@@ -170,8 +170,8 @@ end,
 SMODS.Atlas{
     key = 'regalia_Gkey',
     path = 'GoldKey.png',
-    px = 69,
-    py = 93,
+    px = 71,
+    py = 95,
 }
 
 SMODS.Joker {
